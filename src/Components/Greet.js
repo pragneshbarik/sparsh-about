@@ -54,7 +54,7 @@ export default function Hero() {
         style={styles.neon_blue}
       />
       <motion.div
-        animate={{ opacity: [0.5, 1, 0.5] }}
+        animate={{ opacity: [1, 0.5, 1] }}
         transition={{ repeat: Infinity, duration: 5 }}
         style={styles.neon_green}
       />

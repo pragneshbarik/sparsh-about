@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { motion } from "framer-motion";
-import Hero from "./Components/Hero";
+import Hero from "./Components/Greet";
 import Navbar from "./Components/Navbar";
-import AboutUs from "./pages/aboutUs";
 import styles from "./Components/styles";
 import CountSection from "./Components/CountSection";
+import Moment from "./Components/UI/moment";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <CountSection />
-      {/* <AboutUs /> */}
+      <Moment />
     </div>
   );
 }

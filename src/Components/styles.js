@@ -8,7 +8,7 @@ const styles = {
   },
 
   navbar: {
-    backgroundColor: "black",
+    backgroundColor: "inherit",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -63,6 +63,7 @@ const styles = {
     paddingLeft: "20%",
     paddingTop: "4%",
     fontWeight: 600,
+    opacity: "0%",
   },
 
   neon_blue: {
@@ -74,7 +75,7 @@ const styles = {
 
     background: "rgba(57, 47, 95, 0.90)",
     filter: "blur(300px)",
-    // zIndex: -1,
+    zIndex: -1,
   },
 
   neon_green: {
@@ -83,8 +84,8 @@ const styles = {
     height: "511px",
     left: "287px",
     top: "400px",
-    background: "rgba(55, 66, 37, 0.81)",
-    filter: "blur(300px)",
+    background: "rgba(55, 66, 37, 0.91)",
+    filter: "blur(250px)",
     zIndex: -1,
   },
 
@@ -107,7 +108,8 @@ const styles = {
 
   count_section: {
     marginTop: "200px",
-    padding: "50px 96px",
+    marginBottom: "200px",
+    padding: "100px 96px",
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-around",
