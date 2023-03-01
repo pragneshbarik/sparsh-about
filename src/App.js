@@ -6,14 +6,16 @@ import Navbar from "./Components/Navbar";
 import styles from "./Components/styles";
 import CountSection from "./Components/CountSection";
 import Moment from "./Components/UI/moment";
+import Parallax from "./Components/Parallax";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar />
       <Hero />
       <CountSection />
-      <Moment />
+      <Moment /> */}
+      <Parallax />
     </div>
   );
 }

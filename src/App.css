@@ -1,5 +1,16 @@
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Syne:wght@500;600;700;800&display=swap');
 
+  @font-face {
+    font-family: "RavensaraSansMedium";
+    src: local("RavensaraSansMedium"), url("./Fonts/RavensaraSansMedium.ttf");
+  }
+
+  @font-face {
+    font-family: "RavensaraSansSemiBold";
+    src: local("RavensaraSansSemiBold"), url("./Fonts/RavensaraSansSemiBold.ttf");
+  }
+
+
   * {
     box-sizing: border-box;
     margin: 0;

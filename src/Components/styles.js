@@ -98,7 +98,7 @@ const styles = {
 
     textAlign: "center",
 
-    color: "#8A8A8A",
+    color: "#ACACAC",
     title: {
       textAlign: "center",
       fontSize: "32px",
@@ -114,6 +114,32 @@ const styles = {
     flexDirection: "row",
     justifyContent: "space-around",
     background: "#120D13",
+  },
+
+  parallax_container: {
+    position: "relative",
+    height: "100vh",
+    width: "100vw",
+  },
+
+  layer: {
+    position: "absolute",
+    width: "100vw",
+  },
+
+  parallax_text_block: {
+    display: "flex",
+    fontFamily: "RavensaraSansSemiBold",
+    flexDirection: "column",
+    position: "absolute",
+    width: "100vw",
+    height: "100vh",
+    opacity: "100%",
+    color: "white",
+    textAlign: "center",
+    alignItems: "center",
+    justifyContent: "center",
+    bottom: 0,
   },
 };
 
